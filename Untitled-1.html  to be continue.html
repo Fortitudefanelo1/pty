@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taxi Price App</title>
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            height: 10%;
+            font-family: Arial, sans-serif;
+            background-color: #bdbdbd;
+        }
+        
+        .iphone-frame {
+            position: relative;
+            width: 285px;
+            /* Width of iPhone frame */
+            height: 560px;
+            /* Height of iPhone frame */
+            margin: 50px auto;
+            background-color: #000;
+            border-radius: 55px;
+            overflow: hidden;
+            box-shadow: 0 0 1px rgba(0, 5, 0, 0.3);
+        }
+        
+        .iphone-screen {
+            position: absolute;
+            top: 16px;
+            left: 15px;
+            right: 15px;
+            bottom: 20px;
+            background-color: #fffcfc;
+            border-radius: 20px;
+            overflow: hidden;
+            padding: 20px;
+        }
+        
+        #map {
+            width: 20%;
+            height: 200px;
+            /* Adjust the map height as needed */
+            margin-bottom: 20px;
+        }
+        
+        input[type="text"] {
+            width: calc(100% - 34px);
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border: 02px solid #161414;
+            font-size: 04px;
+        }
+        
+        button {
+            width: calc(123% - 48px);
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 20px;
+        }
+        
+        .button {
+            width: submit(100% - 40px);
+            padding: 10px;
+            background-color: #2160a3;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        
+        button:hover {
+            background-color: #0056b3;
+        }
+        
+        .results {
+            margin-top: 20px;
+        }
+        
+        button:hover {
+            background-color: #0056b3;
+        }
+        
+        .results {
+            margin-top: 20px;
+        }
+        
+        input[type="text"] {
+            width: calc(100% - 35px);
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border: 02px solid #000000;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="iphone-frame">
+        <div class="iphone-screen">
+
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Service Booking</title>
+            <link rel="stylesheet" href="styles.css">
+            </head>
+
+            <body>
+                <h1>Service Booking</h1>
+                <form id="bookingForm">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="service">Select Service:</label>
+                    <select id="service" name="service" required> 
+                <option value=""></ption>
+                <option value="">Presidential escort</option>
+                <option value="Service 1">Site Gaurd</option>
+                <option value="Service 2"></option>
+                <option value="Service 3"></option>
+                <option value="Service 4"></option>
+                <option value="Service 5">VIP Protection</option>
+                <!-- Add more options as needed -->
+            </select><br><br>
+
+                    <label for="date">Select Date:</label>
+                    <input type="date" id="date" name="date" required><br><br>
+
+                    <label for="message">Additional Message:</label><br>
+                    <textarea id="message" name="message" rows="5" cols="24"></textarea><br><br>
+
+
+                    <button { width: 100%; padding: 10px; background-color: #0a76e9; color: #fff; border: none; border-radius: 5px; cursor: pointer; } <input>Book Now
+        </form>
+    
+        <script src="script.js"></script>
+    </body>
+    </html>
